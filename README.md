@@ -16,6 +16,8 @@ Utilizar los sigientes datos de acceso : <br>
 Administrador: admin@gmail.com - 123456 <br>
 Usuario: user@gmail.com - 123456 <br>
 
+## Vistas
+![Dashboard](https://ibb.co/0FKbyNW)
 
 
 ## License
