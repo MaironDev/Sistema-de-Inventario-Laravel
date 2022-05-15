@@ -17,13 +17,13 @@ Route::view('proveedores', 'livewire.proveedores.index')->middleware('auth');
 
 
 Route::get('/', function () {
-    return view('admin.index');
+    return view('dashboard');
 });
 Route::get('/home', function () {
-    return view('admin.index');
+    return view('dashboard');
 });
 Route::get('/dashboard', function () {
-    return view('admin.dashboard');
+    return view('dashboard');
 });
 
 Route::get('/ajustes', function () {
