@@ -22,9 +22,9 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('dashboard');
 });
-Route::get('/dashboard', function () {
-    return view('dashboard');
-});
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// });
 
 Route::get('/ajustes', function () {
     return view('admin.ajustes');

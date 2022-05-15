@@ -37,17 +37,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-6">
-                <div class="small-box bg-warning">
-                    <div class="inner">
-                        <h1><br></h1>
-                        <p>Salir</p>
-                    </div>
-                    <div class="icon">
-                        <i class="fa fa-address-card"></i>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
 </section>
