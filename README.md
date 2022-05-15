@@ -18,8 +18,11 @@ Administrador: admin@gmail.com - 123456 <br>
 Usuario: user@gmail.com - 123456 <br>
 
 ## Vistas
-![Dashboard]("https://i.ibb.co/P9MHGpb/Dashboard.jpg")<br>
-![Dashboard](https://ibb.co/0FKbyNW)
+![Dashboard]("https://github.com/MaironDev/Sistema-de-Inventario-Laravel/blob/main/assets/Dashboard.jpg)<br>
+![Proveedores](https://github.com/MaironDev/Sistema-de-Inventario-Laravel/blob/main/assets/Proveedores.jpg)<br>
+![Inventario](https://github.com/MaironDev/Sistema-de-Inventario-Laravel/blob/main/assets/Inventario.jpg)<br>
+![Ajustes](https://github.com/MaironDev/Sistema-de-Inventario-Laravel/blob/main/assets/Ajustes.jpg)<br>
+![Salir](https://github.com/MaironDev/Sistema-de-Inventario-Laravel/blob/main/assets/Salir.jpg)<br>
 
 
 ## License
