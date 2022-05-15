@@ -8,7 +8,7 @@ Sistema de Inventario Hecho en PHP 8.1.5 Framework Laravel 9
 
 3- Realizar las migraciones  `````` php artisan migrate `````` <br>
 4- Generar la Key  `````` php artisan key:generate `````` <br>
-1- Compilar `````` php artisan serve `````` <br>
+5- Compilar `````` php artisan serve `````` <br>
 
 
 ## Credenciales
