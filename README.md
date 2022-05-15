@@ -17,7 +17,7 @@ Administrador: admin@gmail.com - 123456 <br>
 Usuario: user@gmail.com - 123456 <br>
 
 ## Vistas
-![Dashboard](https://ibb.co/0FKbyNW)<br>
+![Dashboard]("https://i.ibb.co/P9MHGpb/Dashboard.jpg")<br>
 ![Dashboard](https://ibb.co/0FKbyNW)
 
 
