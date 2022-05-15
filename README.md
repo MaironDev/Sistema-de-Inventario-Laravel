@@ -4,6 +4,7 @@ Sistema de Inventario Hecho en PHP 8.1.5 Framework Laravel 9
 ## Instalacion
 1- Instalar las dependencias de Composer `````` composer install `````` <br>
 2- Actualizar dependencias y paquetes `````` composer update `````` <br>
+
 NOTA: Antes de realizar las migraciones crear una base de datos llamada 'laravel', de lo contrario cambiar el nombre de la base de datos en el archivo .env  <br>
 
 3- Realizar las migraciones  `````` php artisan migrate `````` <br>
