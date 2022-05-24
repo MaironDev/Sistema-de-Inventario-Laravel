@@ -5,6 +5,7 @@ namespace App\Http\Livewire;
 use Livewire\Component;
 use Livewire\WithPagination;
 use App\Models\Inventario;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 class Inventarios extends Component
 {
@@ -28,6 +29,15 @@ class Inventarios extends Component
 						->paginate(10),
         ]);
     }
+
+    public function createPDF(){
+        $inventarios = Inventario::all();
+        $pdf = Pdf::loadView('livewire.inventarios.pdf', compact('inventarios'));
+        return $pdf->download('inventario.pdf');
+    }
+  
+
+  
 	
     public function cancel()
     {

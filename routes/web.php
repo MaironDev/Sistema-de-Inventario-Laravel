@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\PDFController;
+use App\Http\Livewire\Inventarios;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,9 +24,7 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('dashboard');
 });
-// Route::get('/dashboard', function () {
-//     return view('dashboard');
-// });
+
 
 Route::get('/ajustes', function () {
     return view('admin.ajustes');
@@ -32,6 +32,9 @@ Route::get('/ajustes', function () {
 Route::get('/salir', function () {
     return view('admin.salir');
 });
+
+Route::get('/pdf', 'PDFController@getPDF')->name('getpdf');
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');

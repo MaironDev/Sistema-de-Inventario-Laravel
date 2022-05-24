@@ -32,14 +32,12 @@
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
         <button type="button" class="btn btn-primary" class="dropdown-item" href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        {{ __('Si, salir !') }}
-                                     
-
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
-                                        @csrf
-                                    </form></button>
+          onclick="event.preventDefault();
+           document.getElementById('logout-form').submit();">
+           {{ __('Si, salir !') }}
+        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+        @csrf
+        </form></button>
       </div>
     </div>
   </div>

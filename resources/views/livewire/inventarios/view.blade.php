@@ -70,6 +70,7 @@
 					</div>
 				</div>
 			</div>
+			<a href="" class="btn btn-primary btn-sm" >{{__('Generar Reporte')}}</a>
 		</div>
 	</div>
 </div>
