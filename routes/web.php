@@ -4,6 +4,7 @@ use App\Http\Controllers\PDFController;
 use App\Http\Livewire\Inventarios;
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,7 +26,8 @@ Route::get('/home', function () {
     return view('dashboard');
 });
 
-
+Route::get('/descargarpdf', [App\Http\Controllers\PDFController::class], 'generatePDF')->name('descargarpdf');
+Route::get('/getinventario', [App\Http\Controllers\PDFController::class], 'getInventario')->name('getinventario');
 Route::get('/ajustes', function () {
     return view('admin.ajustes');
 });
@@ -33,7 +35,10 @@ Route::get('/salir', function () {
     return view('admin.salir');
 });
 
-Route::get('/pdf', 'PDFController@getPDF')->name('getpdf');
+
+
+
+ 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

@@ -30,12 +30,7 @@ class Inventarios extends Component
         ]);
     }
 
-    public function createPDF(){
-        $inventarios = Inventario::all();
-        $pdf = Pdf::loadView('livewire.inventarios.pdf', compact('inventarios'));
-        return $pdf->download('inventario.pdf');
-    }
-  
+
 
   
 	

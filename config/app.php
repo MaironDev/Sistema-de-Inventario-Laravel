@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Facade;
+use Barryvdh\DomPDF\Facade as PDF;
 
 
 return [
@@ -168,7 +169,8 @@ return [
         /*
          * Package Service Providers...
          */
-        Barryvdh\DomPDF\ServiceProvider::class,
+        
+        
 
         /*
          * Application Service Providers...
@@ -180,6 +182,9 @@ return [
         App\Providers\RouteServiceProvider::class,
         App\Providers\FortifyServiceProvider::class,
         App\Providers\JetstreamServiceProvider::class,
+
+        Barryvdh\DomPDF\ServiceProvider::class,
+
 
     ],
 
@@ -195,7 +200,10 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-        // 'PDF' => Barryvdh\DomPDF\Facade::class,
+
+        'PDF' => Barryvdh\DomPDF\Facade\Pdf::class,
+
+        
     ])->toArray(),
 
 ];

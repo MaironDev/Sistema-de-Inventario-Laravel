@@ -1,13 +1,25 @@
 <?php
+
 namespace App\Http\Controllers;
+
 use Illuminate\Http\Request;
-use Barryvdh\DomPDF\PDF as PDF; 
+use App\Models\Inventario;
 
-class PDFController extends Controller{
+use Barryvdh\DomPDF\Facade\Pdf as PDF;
 
-	public function getPDF(){
-		$pdf = \App::make('dompdf.wrapper');
-		$pdf = PDF::loadView('inventario');
-		return $pdf->stream('prueba.pdf');
-	}
+class PDFController extends Controller
+{
+    public function getInventario()
+    {
+        $inventario = Inventario::all();
+       
+        return view ('inventariopdf', compact('inventario'));
+    }
+
+    public function generatePDF(){
+        
+        $inventario = Inventario::all();
+        $pdf = PDF::loadView('inventariopdf', compact('inventario'));
+        return $pdf-> stream('Inventario.pdf');
+    }
 }
