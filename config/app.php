@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Facade;
-use Barryvdh\DomPDF\Facade as PDF;
+use Barryvdh\DomPDF\Facade\Pdf as PDF;
 
 
 return [
