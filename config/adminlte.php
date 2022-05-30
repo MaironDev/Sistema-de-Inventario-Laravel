@@ -267,12 +267,7 @@ return [
             'icon' => 'fas fa fa-calendar',
             'icon_color' => 'black',
         ],
-        [
-            'text' => 'Ajustes',
-            'url'  => '/ajustes',
-            'icon' => 'fas fa fa-cog',
-            'icon_color' => 'black',
-        ],
+       
         [
             'text' => 'Salir',
             'url'  => '/salir',

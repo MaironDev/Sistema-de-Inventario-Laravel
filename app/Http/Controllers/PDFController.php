@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Inventario;
-
 use Barryvdh\DomPDF\Facade\Pdf as PDF;
 
 class PDFController extends Controller

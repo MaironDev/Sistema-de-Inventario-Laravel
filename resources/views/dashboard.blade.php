@@ -45,20 +45,6 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-6" onclick="Redirecta()">
-            <script>function Redirecta() { location.href = "/ajustes"; }</script>
-
-                <div class="small-box border bg-gradient-warning">
-                    <div class="inner">
-                        <h3 class="text-dark">Ajustes</h3>
-                        <p></p>
-                    </div>
-                    <div class="icon">
-                        <i class="fas fa fa-cog position-static"></i>
-                    </div>
-                </div>
-            </div>
-
             <div class="col-lg-3 col-6 " onclick="RedirectS()">
             <script>function RedirectS() { location.href = "/salir"; }</script>
 
