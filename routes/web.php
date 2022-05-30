@@ -18,7 +18,7 @@ Route::get('/home', function () {
     return view('dashboard');
 });
 
-Route::get('/descargarpdf', [App\Http\Controllers\PDFController::class], 'generatePDF')->name('descargarpdf');
+Route::get('/descargarpdf', [App\Http\Controllers\PDFController::class], 'generatePDF')->name('generatePDF');
 Route::get('/getinventario', [App\Http\Controllers\PDFController::class], 'getInventario')->name('getinventario');
 
 Route::get('/salir', function () {

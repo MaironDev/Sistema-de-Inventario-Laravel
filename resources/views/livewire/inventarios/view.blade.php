@@ -70,7 +70,7 @@
 					</div>
 				</div>
 			</div>
-			<a  class="btn btn-primary btn-sm" href="inventariopdf" >{{__('Generar Reporte')}}</a>
+			<a  class="btn btn-primary btn-sm" href="{{route('generatePDF')}}" >{{__('Generar Reporte')}}</a>
 		</div>
 	</div>
 </div>
